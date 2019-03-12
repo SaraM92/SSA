@@ -1,6 +1,7 @@
-# SSA
+# SSA : Static Significance Analysis for Approximate Computing
 Written by: Sara A. Metwalli
 For Hara Lab in Tokyo Institute of Technology
+
 
 This is v1.0 of SSA
 

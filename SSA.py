@@ -8,12 +8,12 @@
 
 #STEP ONE: CLEAN UP THE EXPRESSION
 
-import cleanup
+import data.cleanup
 
 #STEP TWO: CONVERT THE CLEANED UP VERSION TO NORMAL MATH
 
-import converting
+import data.converting
 
 #STEP THREE: ANALYZE THE CONVERTED RESULTS
 
-import analyze
+import data.analyze

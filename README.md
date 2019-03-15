@@ -10,19 +10,14 @@ The files in SSA:
 * Cleanup:
 This file read the raw output of KLEE and clean up the information that is univalent to the analysis. E.g.:
 -- KLEE output:
-
+```
     KLEE: done: total instructions = 51 
-    
     KLEE: done: completed paths = 3 
-    
-    KLEE: done: generated tests = 3
-    
-    in case a = 0 >> z=: (Add w32 6 (Sub w32 (Mul w32 2 (ReadLSB w32 0 a)) (ReadLSB w32 0 c)))
-    
+    KLEE: done: generated tests = 3   
+    in case a = 0 >> z=: (Add w32 6 (Sub w32 (Mul w32 2 (ReadLSB w32 0 a)) (ReadLSB w32 0 c)))   
     in case a > 0 >> z=: (Add w32 (ReadLSB w32 0 a) (SDiv w32 (ReadLSB w32 0  b) 4))
-    
     in case a < 0 >> z=: (Add w32 6 (Add w32 (SDiv w32 (ReadLSB w32 0 a)  2) (SDiv w32 (ReadLSB w32 0 b) 4)))
-
+```
 The first three lines of the output is not necessary for the analysis, so we need to remove such extra information, that's what the cleanup code does.
 
 * Convert:

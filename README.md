@@ -23,5 +23,8 @@ Using SSA:
 ”.
 4. Run SSA and wait for the ranking results to show up.
 
+Published Paper:
+---------------
+Sara Ayman Metwalli and Yuko Hara-Azumi, "SSA-AC: Static Significance Analysis for Approximate Computing," ACM Transactions on Design Automation of Electronic Systems (TODAES), 2019.
 
 For any questions or comments, please contact *sara@cad.ict.e.titech.ac.jp*

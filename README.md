@@ -4,6 +4,14 @@ For Hara Lab in Tokyo Institute of Technology
 
 
 #### This is v1.0 of SSA
+Copyright (c) 2019 Tokyo Institute of Technology.
+All rights reserved.
+
+##### Both KLEE and SSA have open source license.
+
+About SSA
+----------
+SSA (Static Significance Analysis for Approximate Computing) is a tool to systematically analyze a given application's code for approximate computing applications. SSA generates a ranking of the variables in the given code based on how much they affect the quality of the applications' output.
 
 The files in SSA:
 -----------------
